@@ -1,3 +1,28 @@
 .container {
   text-align: center;
 }
+
+.page-2 :visited {
+  text-decoration: none;
+  color: "#fb3f00";
+}
+
+.page-2 {
+  color: "#fb3f00";
+  text-decoration: none;
+}
+
+.page-2 :active {
+  color: "#fb3f00";
+  text-decoration: none;
+}
+
+.page-2 :link {
+  color: "#fb3f00";
+  text-decoration: none;
+}
+
+.page-2 :hover {
+  color: "#fb3f00";
+  text-decoration: none;
+}

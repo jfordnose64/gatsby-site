@@ -5,6 +5,7 @@ import "../components/additional.css"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Social from "../components/social"
 
 const IndexPage = () => (
   <Layout>
@@ -19,8 +20,11 @@ const IndexPage = () => (
         The Frog Pond is a New American Restaurant that has served the Tampa Bay
         area for over 35 years.
       </p>
+      <Social />
 
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link class="page-2" to="/page-2/">
+        Check out the Menu!
+      </Link>
     </div>
   </Layout>
 )
