@@ -2,27 +2,269 @@
   text-align: center;
 }
 
-.page-2 :visited {
+.page :visited {
   text-decoration: none;
   color: "#fb3f00";
+}
+
+.page {
+  color: "#fb3f00";
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.page :active {
+  color: "#fb3f00";
+  text-decoration: none;
+}
+
+.page :link {
+  color: "#fb3f00";
+  text-decoration: none;
+}
+
+.page :hover {
+  color: "#fb3f00";
+  text-decoration: none;
+  opacity: 0.6;
+  cursor: crosshair;
+}
+
+.about {
+  text-align: center;
+}
+
+.header {
+  color: seagreen;
+  font-size: 2.5rem;
+}
+
+.ownerFlex {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  padding: 0rem;
+}
+
+.person {
+  padding: 0.25rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.locationCon {
+  display: flex;
+  justify-content: center;
+}
+
+.mainHeader {
+  font-size: 3.5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/640/320/1862/1048/2-bagel-shutterstock_223713790.jpg?ve=1&tl=1?ve=1&tl=1");
+  background-position: center;
+  background-size: cover;
+  padding: 10rem;
+  color: white;
+  border-radius: 1rem;
+  font-weight: bold;
 }
 
 .page-2 {
-  color: "#fb3f00";
-  text-decoration: none;
+  font-size: 1.2;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
 }
 
-.page-2 :active {
-  color: "#fb3f00";
-  text-decoration: none;
+.linkcon {
+  /* margin: 1rem; */
+  text-align: center;
 }
 
-.page-2 :link {
-  color: "#fb3f00";
-  text-decoration: none;
+.eggs {
+  display: flex;
+  justify-content: center;
 }
 
-.page-2 :hover {
-  color: "#fb3f00";
-  text-decoration: none;
+.menu-item {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.egg-o {
+  background-image: url("https://www.insauga.com/sites/default/files/imagecache/lead-image-full/article/2017/07/omelette.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+  color: black;
+}
+
+.egg-o:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+
+.benedicts {
+  background-image: url("https://www.perkinsrestaurants.com/wp-content/uploads/2018/02/Cali-avocado-benedict-1.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.benedicts:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+
+.waffles {
+  background-image: url("https://laurenslatest.com/wp-content/uploads/2019/04/Belgian-Waffles-6.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.waffles:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+
+.quiche {
+  background-image: url("https://www.onceuponachef.com/images/2019/02/Quiche_Lorraine.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.quiche:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+
+.frittatas {
+  background-image: url("https://www.cookingclassy.com/wp-content/uploads/2019/02/frittata-1.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.frittatas:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+.crepes {
+  background-image: url("https://sweetsimplevegan.com/wp-content/uploads/2019/04/Close-Up-Classic-Rolled-Vegan-French-Crepes-Whipped-Cream-Chocolate-Sweet-Simple-Vegan-Freatured-Image.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.crepes:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+.ecetera {
+  background-image: url("https://www.thespruceeats.com/thmb/Bn4ZBf_1HagFnNBENLonNR5gJVI=/3680x3680/smart/filters:no_upscale()/corned-beef-hash-breakfast-137365849-5817aa995f9b581c0b9d64b7.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.ecetera:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+.kids {
+  background-image: url("https://i.ytimg.com/vi/WH43OZJVrEI/maxresdefault.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.kids:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+.extras {
+  background-image: url("https://cdn.apartmenttherapy.info/image/fetch/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2013%2F03%2Fd763c54e13afa539afcf627fb04cf78f980311fb.jpeg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+}
+
+.extras:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid seagreen;
+  text-align: center;
+}
+
+.drinks {
+  background-image: url("https://i.ytimg.com/vi/WH43OZJVrEI/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.buttonshome {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hours {
+  text-align: center;
+}
+
+.special {
+  text-align: center;
 }
